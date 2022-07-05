@@ -135,7 +135,7 @@ class Ui_MainWindow(object):
                 self.tbInput.setReadOnly(True)
                 self.tbInput.setPlaceholderText("Please exit the program")
             elif chat_returns[0] == "name":
-                self.lblChat.setText(str(self.lblChat.toHtml()d) + "<p align='left'>" + str(self.lblName.text()) + ": " + chat_returns[1].format(str(self.lblName.text())) + "</p>")
+                self.lblChat.setText(str(self.lblChat.toHtml()) + "<p align='left'>" + str(self.lblName.text()) + ": " + chat_returns[1].format(str(self.lblName.text())) + "</p>")
                 self.tbInput.setPlainText("")
             else:
                 self.lblChat.setText(str(self.lblChat.toHtml()) + "<p align='left'>" + str(self.lblName.text()) + ": " + chat_returns[1] + "</p>")

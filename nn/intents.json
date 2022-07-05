@@ -141,6 +141,14 @@
    "patterns": ["Are you human?","Are you real?","Are you a person?","Are you real?"],
    "responses": ["I'm just as human as you.","Yep im human...well the last time i checked i was","Im a real human"],
    "context": [""]
+   },
+   {"tag": "start_project",
+   "patterns": ["I wish to start a project","Can I start a project?","How do i start a project","I want to work with you",
+      "How can I start a job?","I want to hire you","I want to hire your company","I want to work with you"],
+   "responses": ["I truly hope that we can work together. Please contact applicationCB@genericinc.org",
+      "I hope your intrest continues. Please contact applicationCB@genericinc.org to start a job.",
+      "Thank you for picking our company. Please contact applicationCB@genericinc.org to start this."],
+   "context": [""]
    }
 ]
 }
